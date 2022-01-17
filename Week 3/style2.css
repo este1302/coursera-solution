@@ -1,0 +1,101 @@
+ @media(min-width:1200px) /* Large Device */
+{
+    .container{
+        margin-left: 150px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .jumpotron{
+        background: url('images/jumbotron_1200.jpg') no-repeat;
+        height: 676px;
+        width: 1201px;
+      
+    } 
+}
+
+
+@media (min-width:992px) and (max-width:1199px){
+    .jumpotron{
+        background: url('images/jumbotron_992.jpg') no-repeat;
+        height: 558px;
+        width: 992px;
+    }
+}
+
+@media (max-width:576px){   /* Extra Small Devices */
+.container{
+    margin: 10px 0px 0px 0px;
+    padding: 0px 10px 0px 10px;
+}
+.jumpotron{
+    margin: 0px;
+    padding: 0px;
+}
+}
+/*.jumpotron{
+    padding-right: 10px;
+}
+}*/
+ @media (min-width: 992px) {
+    .collapse {
+        visibility: hidden;
+    }
+    }
+
+
+#nav-list{
+    margin-top: 0px;
+    border: 5px solid black;
+    border-bottom: 0px;
+}
+
+
+
+li > div {                             /* Chicken , Beef , Sushi */
+    font-weight: bold;
+    font-size:x-large;
+    text-align: center;
+   /* border: 3px solid black;
+    border-left: 0px;
+    border-right: 0px; */
+    
+}
+
+.sushi
+{
+    border-top: 5px solid black;
+    margin: 0px 5px 0px 5px;
+}
+.chicken
+{
+    border-bottom: 5px solid black;
+    margin: 0px 5px 0px 5px;
+    
+}
+
+
+body{
+    color:black;
+    font-size: 15px;
+}
+
+.navbar                               /* Navigation Bar */
+{
+    /* height: 100px; */
+    background-color: gray;
+    border-radius: 0;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    padding: 0px;
+}
+
+
+
+.hnav                                /* Food,LLC */
+{
+    padding: 10px;
+    margin-left: 27px;
+
+}
+
+

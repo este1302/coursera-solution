@@ -1,4 +1,6 @@
-   
+    body{
+        margin-right: 0;
+    }
             h1{
                 margin-top: 20px;
                 margin-bottom: 50px;
@@ -23,7 +25,10 @@
         span
         {
             float: right !important;
-            border: 2px solid black;
+            border: solid;
+            border-top: 2px;
+            border-right: 2px;
+            border-color: black;
             padding: 4px 50px 4px 50px;
             font-size: x-large;
             font-family: Arial, Helvetica, sans-serif;
